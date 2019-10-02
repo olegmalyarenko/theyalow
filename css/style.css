@@ -21,24 +21,17 @@ body {
   letter-spacing: 0;
 }
 
-.opasity-logo {
-  width: 79px;
-  height: 79px;
-
-  opacity: 0.5;
-}
-.main-logo {
-  position: absolute;
-
-  width: 83px;
-  height: 83px;
-
-  border-radius: 13px;
-}
 .logo {
   display: flex;
   margin-top: 27px;
   margin-left: -23px;
+  
+
+ 
+}
+.logo-img{
+  width: 83px;
+  height: 83px;
 }
 
 a {
@@ -579,4 +572,288 @@ footer {
   text-align: center;
   color: #ffffff;
   letter-spacing: 0;
+}
+/* //////Mobile///// */
+@media  (min-width: 641px) {
+  .mobile-logo, 
+  .parrot-mobile,
+   .better-mobile,
+   .customise-mobile,
+  .free-mobile,
+  .bird-mobile,
+  .left-mobile,
+  .footer-mobile-logo {
+    display: none;
+  }
+}
+
+
+
+
+@media only screen and (max-width: 640px) {
+ 
+
+  .slider-text, 
+  .left-button, 
+  .right-button, 
+  .logo-img , 
+  .parrot-video, 
+  .better-icon, 
+  .customise-icon,
+  .free-icon,
+  .yellow-title,
+  .calendar,
+  .yellow-range,
+  .bird-box,
+  .grey-text,
+  .left-desktop,
+  .footer-logo {
+    display: none;
+  } 
+  .color-section{
+    height: 370px;
+  }
+  
+
+.logo {
+  width: 210px;
+  height: 61px;
+  background: #000000; 
+  margin-top: 0px;
+  
+}
+
+.mobile-logo {
+  width: 40px;
+  height: 40px;
+  margin-top: 10px;
+  margin-left: 33px;
+
+}
+.logo-text {
+  font-size: 17px;
+  margin-top: 22px;
+  margin-left: 12px;
+}
+nav {
+  margin-left: 0px;
+  margin-top: -70px;
+}
+.navigate{
+    width: 415px;
+    height: 61px;
+    margin-top: 70px 0px 0px;
+    box-shadow: none;
+    
+}
+.about {
+  padding-top: 18px;
+  margin-left: -15px;
+}
+.serv {
+  padding-top: 18px;
+  margin-left: 13px;
+}
+.cont {
+  padding-left: 19px;
+    padding-top: 16px;
+}
+
+.parrot-mobile{
+  margin-top: -72px;
+}
+.white-section {
+  height: 175px;
+}
+.better-designe {
+  border-left: none;
+}
+
+.its-free {
+  border-left: none;
+  border-right: none;
+}
+.better-mobile {
+  padding-top: 48px;
+  padding-left: 70px;
+}
+.customise-mobile {
+  padding-top: 30px;
+  padding-left: 30px;
+}
+.customise {
+  border-left: none;
+}
+.white-icon-text {
+  margin-bottom: 0px;
+  font-size: 23px;
+  letter-spacing: 0px;
+  color: #000000;
+  font-family: "Segoe UI";
+  font-weight: 300;
+  text-align: center;
+}
+.better-text{
+  margin-top: 20px;
+  margin-left: -105px;
+}
+.customise-mobile {
+  padding-top: 42px;
+  margin-left: -50px;
+}
+.custom-text{
+  margin-top: 15px;
+  margin-left: -320px;
+}
+.free-mobile {
+  margin-top: 45px;
+  margin-left: -156px;
+}
+.free-text{
+  margin-top: 20x;
+  margin-left: -576px;
+}
+
+.yellow-section{
+   background: none;
+   height: 480px;
+   
+}
+
+.bird-mobile{
+  background: #f5c507; 
+  height: 235px;
+  width: 640px;
+  display: flex;
+  
+}
+input[type="text"] {
+  width: 200px;
+  height: 30px;
+  padding-right: 50px;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+input[type="submit"] {
+  margin-left: -50px;
+  height: 30px;
+  width: 70px;
+  background: #d49210;
+  color: white;
+  border: 0;
+  -webkit-appearance: none;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+.tex-area {
+  width: 255px;
+  height: 42px;
+
+  background: url(../assets/img/message2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: 82px;
+  margin-top: 20px;
+  padding-left: 30px;
+  padding-top: 2px;
+  
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+
+}
+.opacity-area {
+  width: 255px;
+  height: 42px;
+
+  background: url(../assets/img/message2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0,6;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  padding-left: 30px;
+  padding-top: 2px;
+  margin-left: 82px;
+  margin-top: 14px;
+}
+.area-text {
+  font-size: 13px;
+letter-spacing: 0px;
+color: #8f8e8e;
+font-family: "Arial";
+margin-top: 5px;
+
+}
+.yellow-info {
+  margin-top: 46px;
+  margin-bottom: 10px;
+}
+.left-infoblock {
+  width: 300px; 
+  margin-left: 10px;
+}
+.middle-video-box {
+  margin-left: 10px;
+}
+
+.left-text {
+  width: 279px;
+font-size: 32px;
+letter-spacing: 0px;
+line-height: 33px;
+color: #ffffff;
+font-family: "Segoe UI light";
+font-weight: 200;
+}
+
+.left-plus{
+  padding-left: 275px;
+    margin-top: -50px;
+}
+.twi-mobile{
+  padding-top: 48px;
+    padding-left: 85px;
+}
+.tweet{
+  margin-top: 10px;
+  margin-left: 93px;
+}
+.grey {
+  margin-top: -25px;
+  height: 460px;
+}
+.grey-title{
+  padding-top: 30px;
+  padding-left: 20px;
+}
+.grey-main-info{
+  margin-top: -50px;
+    margin-left: 55px;
+}
+.computer {
+  margin-top: 4px;
+  margin-left: -3px;
+  width: 322px;
+}
+.tablet {
+  margin-top: 53px;
+  margin-left: 30px;
+  width: 128px;
+}
+.mobile {
+  padding-left: 26px;
+  margin-top: 160px;
+}
+footer{
+  height: 40px;
+}
+.footer-text{
+  font-size: 15px;
+}
+.footer-mobile-logo{
+  margin-left: 10px;
+  margin-left: 63px;
+  margin-top: 15px;
+}
 }
